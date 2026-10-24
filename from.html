@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <form method="post" action="/">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter Name" name="cus_name" required="true"/>
+        <br>
+        <label for="Email">email</label>
+        <input type="email" id="Email" placeholder="Enter Email" name="cus_email">
+        <br>
+        <label for="Passcode">password</label>
+        <input type="password" id="Passcode" placeholder="Enter Password" name="cus_password" required>
+        <br>
+        <label>Date</label>
+        <input type="date">
+        <br>
+        <label for="M"> Male</label>
+        <input type="radio" id="M" name="gender" value="male">
+        <label for="F"> Female</label>
+        <input type="radio" id="F" name="gender" value="female">
+        <label for=""O> Other</label>
+        <input type="radio" id="O" name="gender" value="other">
+        <br>
+        <label for="java"> Java</label>
+        <input type="checkbox" id="java" name="check" value="Java">
+        <label for="html"> Html</label>
+        <input type="checkbox" id="html" name="check" value="html">
+        
+        <br>
+        <label for="cource">Choose a Course</label>
+        <select id="cource" name="std_cource">
+            <option value="html" >HTML</option>
+            <option value="css">CSS</option>]
+            <option value="java">JAVA</option>
+        </select>
+        <br>
+        <label for="file">Choose File</label>
+        <input type="file" name="c_file" id="file">
+        <br>
+        <label>Test</label>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
